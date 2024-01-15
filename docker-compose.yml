@@ -10,6 +10,7 @@ services:
       - NET_ADMIN
     environment:
       - TOKEN
+      - COUNTRY_CODE
       - API_QUERY
       - DNS_SERVER
     volumes:
